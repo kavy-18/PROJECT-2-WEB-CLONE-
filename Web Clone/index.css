@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-image: url('background-image.png');
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+.home{
+    height: 100vh;
+    width: 100vw;
+}
+.header{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.header ul{
+    padding: 20px;
+    display: flex;
+    gap: 22px;
+    list-style: none;
+}
+.header div{
+    display: flex;
+    gap: 12px;
+}
+.header div img{
+    position: relative;
+    top:5px;
+}
+.header div img{
+    max-height:25px;
+}
+.button{
+    background-color: rgb(237,14,127);
+    color: white;
+    max-height: 35px;
+    min-width: 90px;
+    border-radius: 10%;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: bolder;
+}
+.button2{
+    background-color: rgb(237,14,127);
+    color: white;
+    height: 40px;
+    min-width: 130px;
+    border-radius: 7%;
+    text-align: center;
+    padding-top: 7px;
+    font-weight: bolder;
+}
+.home .main{
+    display: flex;
+    gap: 10%;
+}
+.home .main .right{
+    width: 30%;
+    position: relative;
+    padding-top: 200px;
+    padding-left: 130px;
+}
+.home .main .right h1{
+    font-size: 48px;
+}
+.home .main .right .para{
+    font-weight: 500;
+    color: #94928e;
+}
+.home .main .right .first{
+    display: flex;
+    gap: 20px;
+}
+.home .main .right .Second{
+    display: flex;
+    position: absolute;
+    gap: 10px;
+    bottom: 100px;
+}
+.loan{
+color: #F7C9D7;
+border:2px solid #F7C9D7;
+min-width: 130px;
+border-radius: 7%;
+text-align: center;
+padding-top: 7px;
+font-weight: bolder;
+}
+.home .main .left{
+display: flex;
+width: 50%;
+position: relative;
+}
+.home .main .left .f{
+display: flex;
+justify-content: space-evenly;
+position: absolute;
+color: #B0B3C6;
+min-width: 160px;
+height:50px;
+background-color: white;
+border: 2px solid #B0B3C6;
+box-shadow: 1px 2px 30px;
+ border-radius: 11%;
+left :90px;
+}
+.home .main .left .f p{
+position: relative;
+top: 10px;
+}
+.home .main .left .t p{
+position: relative;
+top: 7px;
+}
+.home .main .left .t{
+display: flex;
+position: absolute;
+justify-content: space-evenly;
+color: #B0B3C6;
+min-width: 160px;
+height:40px;
+background-color: white;
+border: 2px solid #B0B3C6;
+box-shadow: 1px 2px 30px;
+ border-radius: 11%;
+right: 5px;
+top: 190px;
+}
